@@ -11,7 +11,7 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-	<div class="container">
+	<!-- <div class="container"> -->
 		<!-- User Control -->
 		<div class="row userControl">
 			<div class="signup input-field col l6 s12">
@@ -25,7 +25,7 @@
 				  <br>
 				  <input type="text" name="cfPassword" placeholder="Confirm password">
 				  <br>
-				  <button class="waves-effect waves-light btn" type="button" onclick="">Sign up</button>
+				  <button class="waves-effect waves-light btn" onclick="Materialize.showStaggeredList('#staggered-test')" type="button" >Sign up</button>
 				</form> 
 			</div>
 			<div class="login input-field col l6 s12">
@@ -35,7 +35,7 @@
 				  <br>
 				  <input type="text" name="password" placeholder="Password">
 				  <br>
-				  <button class="waves-effect waves-light btn" type="button" onclick="">Log in</button>				  
+				  <button class="waves-effect waves-light btn" type="button" onclick="Materialize.showStaggeredList('#staggered-test')">Log in</button>				  
 				</form> 
 			</div>
 		</div>
@@ -49,7 +49,7 @@
 			<nav>
 				<div class="nav-wrapper">
 					<a href="#" class="brand-logo left">Logo</a>
-					 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+					 <a href="#" data-activates="mobile-demo" class="button-collapse right"><i class="material-icons">menu</i></a>
 					<ul id="nav-mobile" class="right hide-on-med-and-down">
 						<li><a href="#muffin">Muffin</a></li>
 						<li><a href="">Cake</a></li>		
@@ -63,7 +63,7 @@
 		</div>
 		 <!-- End NavBar -->
 		 
-		
+	<div class="container">	
 		<!-- Introduction of product -->
 		<div class="MuffinIntro row">
 				<div class="col s12 l4">
@@ -117,11 +117,41 @@
 					<p>asdfasdfasdfasdfsd sdfsdjhs sadjfhsakdjh jsdhfkshd</P>
 					<input placeholder="Quantity" id="quantity" type="text" class="validate">
 					<h5>Price:</h5>
-					<button class="waves-effect waves-light btn" type="button" onclick="">Add to cart</button>
+					<button class="waves-effect waves-light btn" type="button" onclick="Materialize.showStaggeredList('#staggered-test')">Add to cart</button>
 				</div>
 			</div>
-		</div>			
+			
+		</div>
 	</div>
+		<footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l8 s12">
+                <h5 class="white-text">Contact Information</h5>
+                <p class="grey-text text-lighten-4">
+				Helsinki <br>
+				+321 123 456 7<br>
+				For information enquiries:<br>
+				info@info.fi 
+				</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Link</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Homepage</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            Presir© 2015 Copyright Text
+            </div>
+          </div>
+        </footer>		
+	<!-- </div> -->
+	
 	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
 </body>
