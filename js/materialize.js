@@ -3891,9 +3891,12 @@ var $document = $( document )
 var $html = $( document.documentElement )
 
 
+
 /**
  * The picker constructor that creates a blank picker.
  */
+ 
+$( document ).ready(function(){}) 
 function PickerConstructor( ELEMENT, NAME, COMPONENT, OPTIONS ) {
 
     // If there’s no element, return the picker constructor.
@@ -6476,3 +6479,4 @@ Picker.extend( 'pickadate', DatePicker )
   });
 
 }( jQuery ));
+$(".button-collapse").sideNav();
