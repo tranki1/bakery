@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>De Plesir</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+	<div class="container">
+		<!-- User Control -->
+		<div class="row userControl">
+			<div class="signup input-field col l6 s12">
+				<h4>Sign up!</h4>
+				<form>
+				  <input placeholder="username" id="username" type="text" class="validate">
+				  <br>
+				  <input type="text" name="emal" placeholder="Email">
+				  <br>
+				  <input type="text" name="password" placeholder="Password">
+				  <br>
+				  <input type="text" name="cfPassword" placeholder="Confirm password">
+				  <br>
+				  <button class="waves-effect waves-light btn" type="button" onclick="">Sign up</button>
+				</form> 
+			</div>
+			<div class="login input-field col l6 s12">
+				<h4>Login</h4>
+				<form>
+				  <input type="text" name="username" placeholder="Username">
+				  <br>
+				  <input type="text" name="password" placeholder="Password">
+				  <br>
+				  <button class="waves-effect waves-light btn" type="button" onclick="">Log in</button>				  
+				</form> 
+			</div>
+		</div>
+		<!-- End of User Control -->	
+		
+		<div class="divider"></div>
+		 
+		 <!-- NavBar -->
+		<div class="OrderNav row">
+			<h1 class="center">Online Store</h1>
+			<nav>
+				<div class="nav-wrapper">
+					<a href="#" class="brand-logo left">Logo</a>
+					 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+					<ul id="nav-mobile" class="right hide-on-med-and-down">
+						<li><a href="#muffin">Muffin</a></li>
+						<li><a href="">Cake</a></li>		
+					</ul>
+					<ul class="side-nav" id="mobile-demo">
+						<li><a href="#muffin">Muffin</a></li>
+						<li><a href="">Cake</a></li>	
+					</ul>
+				</div>
+			</nav>
+		</div>
+		 <!-- End NavBar -->
+		 
+		
+		<!-- Introduction of product -->
+		<div class="MuffinIntro row">
+				<div class="col s12 l4">
+					<img class="responsive-img" src="http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2011/2/18/0/SHM-Cookbook_Chcolate-Choclate-Cherry-Cupcakes-0599_s4x3.jpg">
+				</div>
+				<div class="col s12 l8">
+					<h3>Product Discription</h3>
+					<p>orem ipsum dolor sit amet, consectetuer adipiscing elit. Sed posuere interdum sem. Quisque ligula eros ullamcorper quis, lacinia quis facilisis sed sapien. Mauris varius diam vitae arcu. Sed arcu lectus auctor vitae, consectetuer et venenatis eget velit. Sed augue orci, lacinia eu tincidunt et eleifend nec lacus. Donec ultricies nisl ut felis, suspendisse potenti. Lorem ipsum ligula ut hendrerit mollis, ipsum erat vehicula risus, eu suscipit sem libero nec erat. Aliquam erat volutpat. Sed congue augue vitae neque. Nulla consectetuer porttitor pede. Fusce purus morbi tortor magna condimentum vel, placerat id blandit sit amet tortor.</p>					
+				</div>				
+		</div>
+		<div class="divider"></div>
+		
+		<!-- Base Selection for Muffin -->
+		<div class="row">
+			<div class=" col l8">
+				<h4>Base</h4>
+				<div class="baseSelect row">
+					<div class="col s12 l4">
+						<img class="responsive-img" src="http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2011/2/18/0/SHM-Cookbook_Chcolate-Choclate-Cherry-Cupcakes-0599_s4x3.jpg">
+					</div>
+					<div class=" col s12 l5">
+						<label>Base Select</label>
+						<select class="">
+							<option value="" disabled selected>Choose your option</option>
+							<option value="1">Option 1</option>
+							<option value="2">Option 2</option>
+							<option value="3">Option 3</option>
+						</select>													
+					</div>			
+				</div>
+				
+				<!-- Addon Selection for Muffin -->
+				<h4>Addon</h4>
+				<div class="AddonSelect row">
+					<div class="col s12 l4">
+						<img class="responsive-img" src="http://foodnetwork.sndimg.com/content/dam/images/food/fullset/2011/2/18/0/SHM-Cookbook_Chcolate-Choclate-Cherry-Cupcakes-0599_s4x3.jpg">
+					</div>
+					<div class="browser-default col s12 l5">
+						<label>Addon Select</label>
+							<select>
+								<option value="" disabled selected>Choose your option</option>
+								<option value="1">Option 1</option>
+								<option value="2">Option 2</option>
+								<option value="3">Option 3</option>
+							</select>													
+					</div>			
+				</div>
+			</div>
+			<div class="col l4">
+				<div class="row">
+					<p>asdfasdfasdfasdfsd sdfsdjhs sadjfhsakdjh jsdhfkshd</P>
+					<input placeholder="Quantity" id="quantity" type="text" class="validate">
+					<h5>Price:</h5>
+					<button class="waves-effect waves-light btn" type="button" onclick="">Add to cart</button>
+				</div>
+			</div>
+		</div>			
+	</div>
+	<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+</body>
+</html>
