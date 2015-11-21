@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Plaisir</title>
+
+  <!-- CSS  -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lily+Script+One&#038;ver=4.3.1" type='text/css' media='all' />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/customize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+<div class="row center logoRow">			
+			<img class="responsive-img logo" src="img/logo.png">			
+</div>
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper center">
+	<div class="CustomNav">
+      <ul class="hide-on-med-and-down">
+        <li><a href="#">Home</a></li>
+		<li><a href="#About">About</a></li>
+		<li><a href="store.html">Online Store</a></li>
+		<li><a href="#Contact">Contact</a></li>		
+      </ul>
+	  </div>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Home</a></li>
+		<li><a href="#About">About</a></li>
+		<li><a href="store.html">Online Store</a></li>
+		<li><a href="#Contact">Contact</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        
+        <div class="row center banner">
+          <h1 class="header col s12 light text-lighten-2 plaisirHeader">{plaisir}</h1>
+        </div>
+        <div class="row center">
+          <a href="store.html" id="download-button" class="btn-large waves-effect waves-light sweetRed lighten-1">Customize your cake!</a>
+        </div>
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="img/header-faded.png" alt="Unsplashed background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Icon Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Speeds up development</h5>
+
+            <p class="light">We did most of the heavy lifting for you to provide a default stylings that incorporate our custom components. Additionally, we refined animations and transitions to provide a smoother experience for developers.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">group</i></h2>
+            <h5 class="center">User Experience Focused</h5>
+
+            <p class="light">By utilizing elements and principles of Material Design, we were able to create a framework that incorporates components and animations that provide more feedback to users. Additionally, a single underlying responsive system across all platforms allow for a more unified user experience.</p>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">settings</i></h2>
+            <h5 class="center">Easy to work with</h5>
+
+            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="img/header-full.png" alt="Unsplashed background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Us</h4>
+          <p class="left-align light">If our online store cannot statisfy for demand or you want something REALLY REALLY REALLY special for your big day, just send us an email, call us, or fill this form. We are always available to help</p>
+			<div class="input-field">
+				<i class="material-icons prefix">account_circle</i>
+				<input id="icon_prefix" placeholder="Your name" id="nameContact" type="text" class="validate"/>
+				<i class="material-icons prefix">email</i>
+				<input id="icon_prefix" placeholder="Email" id="emailContact" type="text" class="validate"/>
+				<i class="material-icons prefix">label_outline</i>
+				<input  placeholder="Subject" id="subjectContact" type="text" class="validate"/>
+				<i class="material-icons prefix">comment</i>
+				<textarea class="materialize-textarea" placeholder="How can we help you?" id="contentContact" type="text" ></textarea>
+				<button class="waves-effect sweetRed waves-light btn" type="button" onclick="Materialize.showStaggeredList('#staggered-test')">Thank you!</button>	
+			</div>
+		</div>
+      </div>
+
+    </div>
+  </div>
+
+
+  
+  <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l8 s12">
+                <h5 class="white-text">Contact Information</h5>
+                <p class="grey-text text-lighten-4">
+				Helsinki <br>
+				+321 123 456 7<br>
+				For information enquiries:<br>
+				info@info.fi 
+				</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Link</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Homepage</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            Plaiser© 2015 Copyright Text
+            </div>
+          </div>
+        </footer>		
+	<!-- </div> -->
+
+	
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,93 @@
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+  font-family:"lily script one" ;
+  font-size:1.5em;
+  font-weight:500;
+} 
+
+nav{
+	box-shadow:0 0 0 0 !important;
+	position: relative;
+}
+.CustomNav{
+	width:440px;
+	margin: 0 auto;
+}
+
+.banner{
+	padding-top:40px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+nav{
+	border:none;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+.plaisirHeader {
+	color:rgba(255,255,255,1.5);
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.logo{
+	width:50%
+}
+
+.logoRow{
+	margin-bottom:0;
+}
+@media screen and (min-width: 480px) {
+	.logo{
+	width:20%
+	}
+}
+
+footer.page-footer {
+background-color: #930b0b;}
+
+.sweetRed {
+background-color: #930b0b !important;}
