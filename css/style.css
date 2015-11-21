@@ -1,0 +1,12 @@
+.logo{
+	width:50%
+}
+
+.logoRow{
+	margin-bottom:0;
+}
+@media screen and (min-width: 480px) {
+	.logo{
+	width:25%
+}
+}
